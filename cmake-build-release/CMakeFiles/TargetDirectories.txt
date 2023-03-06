@@ -1,4 +1,5 @@
 /home/ilya/CLionProjects/for_hw_c++/cmake-build-release/CMakeFiles/main.dir
-/home/ilya/CLionProjects/for_hw_c++/cmake-build-release/CMakeFiles/for_hw.dir
+/home/ilya/CLionProjects/for_hw_c++/cmake-build-release/CMakeFiles/for_hw_01.dir
+/home/ilya/CLionProjects/for_hw_c++/cmake-build-release/CMakeFiles/for_hw_02.dir
 /home/ilya/CLionProjects/for_hw_c++/cmake-build-release/CMakeFiles/edit_cache.dir
 /home/ilya/CLionProjects/for_hw_c++/cmake-build-release/CMakeFiles/rebuild_cache.dir

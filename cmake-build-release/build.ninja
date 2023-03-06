@@ -72,35 +72,66 @@ build main: CXX_EXECUTABLE_LINKER__main_Release CMakeFiles/main.dir/main.cpp.o
   TARGET_PDB = main.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target for_hw
+# Object build statements for EXECUTABLE target for_hw_01
 
 
 #############################################
-# Order-only phony target for for_hw
+# Order-only phony target for for_hw_01
 
-build cmake_object_order_depends_target_for_hw: phony || CMakeFiles/for_hw.dir
+build cmake_object_order_depends_target_for_hw_01: phony || CMakeFiles/for_hw_01.dir
 
-build CMakeFiles/for_hw.dir/hw_02.cpp.o: CXX_COMPILER__for_hw_Release /home/ilya/CLionProjects/for_hw_c++/hw_02.cpp || cmake_object_order_depends_target_for_hw
-  DEP_FILE = CMakeFiles/for_hw.dir/hw_02.cpp.o.d
+build CMakeFiles/for_hw_01.dir/hw_01.cpp.o: CXX_COMPILER__for_hw_01_Release /home/ilya/CLionProjects/for_hw_c++/hw_01.cpp || cmake_object_order_depends_target_for_hw_01
+  DEP_FILE = CMakeFiles/for_hw_01.dir/hw_01.cpp.o.d
   FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -std=gnu++14
-  OBJECT_DIR = CMakeFiles/for_hw.dir
-  OBJECT_FILE_DIR = CMakeFiles/for_hw.dir
+  OBJECT_DIR = CMakeFiles/for_hw_01.dir
+  OBJECT_FILE_DIR = CMakeFiles/for_hw_01.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target for_hw
+# Link build statements for EXECUTABLE target for_hw_01
 
 
 #############################################
-# Link the executable for_hw
+# Link the executable for_hw_01
 
-build for_hw: CXX_EXECUTABLE_LINKER__for_hw_Release CMakeFiles/for_hw.dir/hw_02.cpp.o
+build for_hw_01: CXX_EXECUTABLE_LINKER__for_hw_01_Release CMakeFiles/for_hw_01.dir/hw_01.cpp.o
   FLAGS = -O3 -DNDEBUG
-  OBJECT_DIR = CMakeFiles/for_hw.dir
+  OBJECT_DIR = CMakeFiles/for_hw_01.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = for_hw
-  TARGET_PDB = for_hw.dbg
+  TARGET_FILE = for_hw_01
+  TARGET_PDB = for_hw_01.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target for_hw_02
+
+
+#############################################
+# Order-only phony target for for_hw_02
+
+build cmake_object_order_depends_target_for_hw_02: phony || CMakeFiles/for_hw_02.dir
+
+build CMakeFiles/for_hw_02.dir/hw_02.cpp.o: CXX_COMPILER__for_hw_02_Release /home/ilya/CLionProjects/for_hw_c++/hw_02.cpp || cmake_object_order_depends_target_for_hw_02
+  DEP_FILE = CMakeFiles/for_hw_02.dir/hw_02.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always -std=gnu++14
+  OBJECT_DIR = CMakeFiles/for_hw_02.dir
+  OBJECT_FILE_DIR = CMakeFiles/for_hw_02.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target for_hw_02
+
+
+#############################################
+# Link the executable for_hw_02
+
+build for_hw_02: CXX_EXECUTABLE_LINKER__for_hw_02_Release CMakeFiles/for_hw_02.dir/hw_02.cpp.o
+  FLAGS = -O3 -DNDEBUG
+  OBJECT_DIR = CMakeFiles/for_hw_02.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = for_hw_02
+  TARGET_PDB = for_hw_02.dbg
 
 
 #############################################
@@ -136,7 +167,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/ilya/CLionProjects/for_hw_c++/cmake-build-release
 
-build all: phony main for_hw
+build all: phony main for_hw_01 for_hw_02
 
 # =============================================================================
 # Built-in targets
